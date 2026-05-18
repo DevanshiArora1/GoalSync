@@ -8,20 +8,20 @@ GoalSync is a corporate goal-setting and performance tracking platform built for
 
 ## Problem Statement
 
-Organizations struggle to keep individual goals aligned with company priorities. Spreadsheets and ad-hoc check-ins create fragmented data, weak accountability, and limited visibility for leadership. GoalSync centralizes the goal lifecycle—definition, weightage allocation, progress updates, quarterly check-ins, and admin reporting—in one role-aware application.
+Organizations struggle to keep individual goals aligned with company priorities. Spreadsheets and ad-hoc check-ins create fragmented data, weak accountability, and limited visibility for leadership. GoalSync centralizes the goal lifecycle-definition, weightage allocation, progress updates, quarterly check-ins, and admin reporting—in one role-aware application.
 
 ---
 
 ## Features
 
 - **JWT authentication** with secure, role-based access
-- **Employee goal management** — create, edit, delete, and track progress with validation rules
-- **Weightage governance** — up to 8 goals per cycle, minimum 10% per goal, 100% total allocation
-- **Quarterly check-ins** — achievement vs. plan, progress sliders, status updates, manager comments
-- **Manager team view** — approvals queue, team progress, check-in cards, planned vs. actual
-- **Admin analytics** — charts, audit-style activity, shared goals, CSV export for reporting
-- **Protected routes** — unauthenticated users are redirected; cross-role access is blocked
-- **Production-ready API layer** — environment-based backend URL configuration
+- **Employee goal management** - create, edit, delete, and track progress with validation rules
+- **Weightage governance** - up to 8 goals per cycle, minimum 10% per goal, 100% total allocation
+- **Quarterly check-ins** - achievement vs. plan, progress sliders, status updates, manager comments
+- **Manager team view** - approvals queue, team progress, check-in cards, planned vs. actual
+- **Admin analytics** - charts, audit-style activity, shared goals, CSV export for reporting
+- **Protected routes** - unauthenticated users are redirected; cross-role access is blocked
+- **Production-ready API layer** - environment-based backend URL configuration
 
 ---
 
@@ -47,7 +47,7 @@ Organizations struggle to keep individual goals aligned with company priorities.
 
 - Organization analytics dashboard (completion trends, status distribution, KPI cards)
 - Audit log and shared company goals sections
-- **Export CSV** — download `goals-report-YYYY-MM-DD.csv` from live goal data
+- **Export CSV** - download `goals-report-YYYY-MM-DD.csv` from live goal data
 - Full read access to organizational goal records via API
 
 ---
@@ -75,10 +75,10 @@ Organizations struggle to keep individual goals aligned with company priorities.
 
 ```mermaid
 flowchart TB
-  subgraph Client["Frontend — React + Vite + Tailwind"]
+  subgraph Client["Frontend - React + Vite + Tailwind"]
     UI[Role Dashboards]
     Router[React Router + Protected Routes]
-    API_Client[API Layer — config / goals / auth]
+    API_Client[API Layer - config / goals / auth]
   end
 
   subgraph Hosting_FE["Vercel"]
