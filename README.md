@@ -1,5 +1,9 @@
 # GoalSync
 
+![React](https://img.shields.io/badge/Frontend-React-blue)
+![Node](https://img.shields.io/badge/Backend-Node.js-green)
+![MongoDB](https://img.shields.io/badge/Database-MongoDB-success)
+
 **Align goals. Track progress. Drive performance.**
 
 GoalSync is a corporate goal-setting and performance tracking platform built for hackathon-scale teams and enterprise-style workflows. It gives employees a structured way to define objectives, helps managers monitor team health, and equips administrators with organization-wide visibility and reporting.
@@ -160,7 +164,7 @@ AtomBerg Hackathon/
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/DevanshiArora1/GoalSync.git
 cd "AtomBerg Hackathon"
 ```
 
@@ -255,8 +259,8 @@ See `goalsync-frontend/.env.example` for a documented template.
 
 | Service | Platform | URL |
 |---------|----------|-----|
-| Frontend | Vercel | _Add after deployment_ |
-| Backend API | Render | _Add after deployment_ |
+| Frontend | Vercel | https://goal-sync-kappa.vercel.app/ |
+| Backend API | Render | https://goalsync-backend-o23v.onrender.com |
 
 **Deployment checklist**
 
@@ -279,6 +283,9 @@ After running `seed.js`, use these accounts:
 | Admin | `admin@test.com` | `123456` |
 
 ---
+
+Use the deployed frontend link and the following demo credentials to explore each role-based journey.
+
 
 ## API Endpoints
 
@@ -305,18 +312,13 @@ After running `seed.js`, use these accounts:
 ---
 
 ## Team
-
-| Name | Role | Contribution |
-|------|------|----------------|
-| _Your Name_ | _Role_ | _e.g. Frontend, UI/UX_ |
-| _Teammate_ | _Role_ | _e.g. Backend, API_ |
-| _Teammate_ | _Role_ | _e.g. Integration, DevOps_ |
+| Devanshi Arora | Full Stack Development | Frontend, Backend, Integration, Deployment |
 
 **Institution / Event:** AtomBerg Hackathon  
-**Project:** GoalSync — Corporate Goal & Performance Platform
+**Project:** GoalSync - Corporate Goal & Performance Platform
 
 ---
 
 ## License
 
-This project was built for the AtomBerg Hackathon. Update license terms as required by your team or institution.
+This project was built for the AtomBerg Hackathon. 
