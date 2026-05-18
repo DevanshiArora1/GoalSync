@@ -54,22 +54,20 @@ Organizations struggle to keep individual goals aligned with company priorities.
 
 ## Screenshots
 
-> Add screenshots after deployment or local capture. Suggested captures:
+### Login Portal
+![Login](docs/screenshots/login.png)
 
-| Screen | Description |
-|--------|-------------|
-| Login | Role-based sign-in portal |
-| Employee Dashboard | Goals table, weightage bar, add-goal modal |
-| Manager Dashboard | Team progress, check-ins, approvals |
-| Admin Dashboard | Analytics charts and CSV export |
-| Quarterly Check-in | Employee update card and manager comment thread |
+### Employee Dashboard
+![Employee Dashboard](docs/screenshots/employee-dashboard.png)
 
-```
-docs/screenshots/login.png
-docs/screenshots/employee-dashboard.png
-docs/screenshots/manager-dashboard.png
-docs/screenshots/admin-dashboard.png
-```
+### Manager Dashboard
+![Manager Dashboard](docs/screenshots/manager-dashboard.png)
+
+### Admin Dashboard
+![Admin Dashboard](docs/screenshots/admin-dashboard.png)
+
+### System Architecture
+![Architecture](docs/screenshots/architecture.png)
 
 ---
 
