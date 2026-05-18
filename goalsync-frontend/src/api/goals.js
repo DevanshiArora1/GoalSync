@@ -1,14 +1,5 @@
-const API_BASE = 'http://127.0.0.1:5000/api'
-
-async function parseResponse(response) {
-  const text = await response.text()
-  if (!text) return {}
-  try {
-    return JSON.parse(text)
-  } catch {
-    throw new Error('Invalid response from server')
-  }
-}
+import { API_BASE } from './config'
+import { parseResponse } from './http'
 
 export function normalizeGoal(goal) {
   const employee = goal.employeeId

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
+import { login } from '../api/auth'
 import { getRoleHomePath } from '../lib/authStorage'
 
 export default function LoginPage() {
@@ -13,35 +14,8 @@ export default function LoginPage() {
     e.preventDefault()
   
     try {
-      const response = await fetch('http://127.0.0.1:5000/api/auth/login', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          email,
-          password,
-        }),
-      })
-  
-      const text = await response.text()
-  
-      console.log(text)
-  
-      let data
-  
-      try {
-        data = JSON.parse(text)
-      } catch {
-        alert('Backend did not return JSON')
-        return
-      }
-  
-      if (!response.ok) {
-        alert(data.message)
-        return
-      }
-  
+      const data = await login(email, password)
+
       localStorage.setItem('token', data.token)
       localStorage.setItem('user', JSON.stringify(data.user))
   
